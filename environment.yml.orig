@@ -1,4 +1,4 @@
-name: carnd-term1-gpu
+name: carnd-term1
 channels:
     - https://conda.anaconda.org/menpo
     - conda-forge
@@ -19,5 +19,5 @@ dependencies:
     - pandas
     - pip:
         - moviepy
-        - tensorflow-gpu
+        - tensorflow
         - git+https://github.com/fchollet/keras.git
